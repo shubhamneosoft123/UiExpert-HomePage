@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bzlqld');
+  src:  url('fonts/icomoon.eot?bzlqld#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bzlqld') format('truetype'),
+    url('fonts/icomoon.woff?bzlqld') format('woff'),
+    url('fonts/icomoon.svg?bzlqld#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-application-ui-3-mobile:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-facebook-icon .path1:before {
+  content: "\e901";
+  color: rgb(10, 49, 90);
+}
+.icon-facebook-icon .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+.icon-google-plus-icon .path1:before {
+  content: "\e903";
+  color: rgb(10, 49, 90);
+}
+.icon-google-plus-icon .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-google-plus-icon .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-mobile-ui-app4:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-Redesign2:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-Twitter-icon .path1:before {
+  content: "\e908";
+  color: rgb(10, 49, 90);
+}
+.icon-Twitter-icon .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-waving-hand:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-Web-UiExpert:before {
+  content: "\e90b";
+}
+.icon-web-app-ui5domain:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-web-ele-repair6:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-webui-desgn1:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-youtube-icon .path1:before {
+  content: "\e90f";
+  color: rgb(10, 49, 90);
+}
+.icon-youtube-icon .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
