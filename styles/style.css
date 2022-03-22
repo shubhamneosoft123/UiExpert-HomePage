@@ -776,6 +776,9 @@ header{
   font-size: 43px;
   padding-top: 20px;
 }
+.social-media a{
+  text-decoration: none;
+}
 .copyright{
   padding: 60px 0px 60px 0px ;
 }
@@ -799,7 +802,7 @@ header{
     padding-top: 30px;
 }
 .footer-logo img{
-  width: 50%;
+  width: 27%;
 }
 .foo-heading {
   padding-top: 10px;
