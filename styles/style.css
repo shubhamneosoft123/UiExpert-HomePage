@@ -182,8 +182,9 @@ header{
     padding-left: 371px;
     padding-top: 81px;
 }
-
-
+.navbar-light .navbar-brand {
+    max-width: 110px;
+}
 /* Hamberan icon */
 .burger {
   display: flex;
@@ -195,7 +196,7 @@ header{
 .burger__line{
   display: block;
   border-radius: 4px;
-  height: 6px;
+  height: 4px;
   width: 100%;
   background-color: #FFFFFF;
   transition: all ease 0.5s;
@@ -217,7 +218,7 @@ header{
    opacity: 0;
 }
 .burger.active .burger__line--bottom {
-  transform: translate(0, -15px) rotate(-45deg) ;
+  transform: translate(0, -5px) rotate(-45deg) ;
 }
 /* Hamb icon end */
 
@@ -275,15 +276,35 @@ header{
   .navbar{
     padding-left: 0;
     padding-top: 19px;
-    padding-right: 35px;
+    /* padding-right: 35px; */
    }
+}
+@media screen and (max-width: 767px) {
+  .navbar-brand img{
+    width: 80%;
+  }
+  .burger {
+   
+    width: 44px;
+    height: 30px;
+    cursor: pointer;
+}
+
 }
 @media screen and (max-width: 480px) {
   .header-img{
     top: -3%;
     right: -1px;
-    left: 28%;
+    left: 15%;
   }
+  .burger {
+    display: flex;
+    flex-direction: column;
+    width: 34px;
+    height: 24px;
+    cursor: pointer;
+}
+
 }
 
 #login{
@@ -772,11 +793,25 @@ header{
   .footer-wrapper {
     padding-top: 30px;
 }
+.footer-logo img{
+  width: 50%;
+}
+.foo-heading {
+  padding-top: 10px;
+}
+
 }
 @media screen and (max-width: 480px) {
   .footer-wrapper {
     padding-top: 28px;
 }
+.copyright{
+  padding: 20px 0px 20px 0px ;
+}
+.foo-heading {
+  padding-top: 20px;
+}
+
 
 }
 /* footer */
