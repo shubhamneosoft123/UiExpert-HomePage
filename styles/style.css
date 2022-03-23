@@ -257,8 +257,14 @@ header {
   border-radius: 50px;
   font-size: 20px;
   font-family: "Lato-bold";
-  border: none;
+  border:1px solid transparent;
 }
+.login:hover{
+  background-color: #ffffff;
+  color: #ff8923;
+  transition: all 0.3s;
+  border:1px solid #ff8923; 
+} 
 
 
 
@@ -303,7 +309,17 @@ header {
   border-color: #3d37f1;
   font-size: 23px;
   font-family: "Lato-bold";
-  border: none;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.wave:hover{
+  background-color:#ffffff ;
+  color:#3d37f1;
+  border:1px solid #3d37f1;
+
+}
+.wave:hover .icon-waving-hand::before{
+  color:#3d37f1;
 }
 .wave span {
   margin-right: 19px;
@@ -362,20 +378,18 @@ header {
   background-image: linear-gradient(#ff8088, #984141);
 }
 
-#readmore-btn {
-  background-color: #fff;
-  color: #4b647e;
-  padding: 4px 18px 4px 18px;
-  border-radius: 50px;
-  font-family: "Roboto-regular";
-  font-size: 15px;
-}
 .readmore-btn {
   color: #ffffff;
   padding: 4px 18px 4px 18px;
   border-radius: 50px;
   font-family: "Roboto-regular";
   border-color: #ffffff;
+
+}
+
+.readmore-btn:hover{
+  background-color: #fff;
+
 }
 
 .btn-pd {
@@ -492,6 +506,12 @@ header {
   font-family: "Roboto-regular";
   font-size: 20px;
 }
+.foo-achors ul li a:hover {
+  color: #3d37f1;
+  transition: all 0.3s;
+ 
+}
+
 .foo-achors ul li {
   padding-top: 8px;
 }
@@ -514,6 +534,44 @@ header {
 }
 .social-media a {
   text-decoration: none;
+  /* border: 1px solid transparent;
+  border-radius: 50%; */
+}
+/* .social-media a:hover{
+  border: 1px solid rgb(10, 49, 90);
+} */
+.social-media a:hover .icon-facebook-icon .path1:before {
+  color: #ffffff; 
+  transition: all 0.3s;
+}
+.social-media a:hover .icon-Twitter-icon .path1:before {
+  color: #ffffff; 
+  transition: all 0.3s;
+}
+.social-media a:hover .icon-google-plus-icon .path1:before {
+  color: #ffffff; 
+  transition: all 0.3s;
+}
+
+.social-media a:hover .icon-facebook-icon .path2:before {
+  color: rgb(10, 49, 90);
+  transition: all 0.3s;
+}
+.social-media a:hover .icon-Twitter-icon .path2:before {
+  color:  rgb(10, 49, 90);
+  transition: all 0.3s;
+}
+.social-media a:hover .icon-google-plus-icon  .path2:before {
+  color:  rgb(10, 49, 90);
+  transition: all 0.3s;
+}
+.social-media a:hover .icon-google-plus-icon  .path3:before {
+  color:  rgb(10, 49, 90);
+  transition: all 0.3s;
+}
+
+.contact-image{
+  margin-right: 10px;
 }
 .copyright {
   padding: 60px 0px 60px 0px;
